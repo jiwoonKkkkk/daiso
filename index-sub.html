@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<title>index</title>
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style-sub.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/daiso.js"></script>
+</head>
+
+<body>
+	<ul class="skip">
+		<li><a href="#container">111</a></li>
+		<li><a href="#nav">2222</a></li>
+	</ul>
+	<header>
+		<div class="headTop">
+			<div class="center">
+				<h1 class="logo"><a href="index.html"><img src="images/header_logo.png" alt=""></a></h1>
+				<ul class="lang">
+					<li><a href="#"><img src="images/btn_language.png" alt="kor"></a></li>
+				</ul>
+				<form class="search">
+					<label for="iSearch"></label>
+					<input type="text" id="iSearch">
+					<a href="#" class="searchBtn"><img src="images/icon_search.png" alt="S"></a>
+				</form>
+				<!--<form class="search1">
+					<label for="iSearch"></label>
+					<input type="text" id="iSearch">
+					</form>-->
+				<ul class="gnb">
+					<li class="search1Btn"><a href="#"><img src="images/icon_search.png" alt="S"></a></li>
+					<li class="cart"><a href="#"><img src="images/btn_cart.jpg" alt=""></a></li>
+				</ul>
+
+
+			</div>
+		</div>
+		<div class="headBottom clearFix">
+			<div class="center">
+				<ul id="nav">
+					<li class="category">
+						<h2><a href="#"><img src="images/btn_ham.jpg" alt=""><span>CATEGORY</span></a></h2>
+
+						<ul class="sub">
+							<li><a href="#">청소/세탁용품</a></li>
+							<li><a href="#">주방용품</a></li>
+							<li><a href="#">조화용품</a></li>
+							<li><a href="#">욕실용품</a></li>
+							<li><a href="#">패브릭용품</a></li>
+							<li><a href="#">미용/화장</a></li>
+							<li><a href="#">문구/완구</a></li>
+							<li><a href="#">일회/위생</a></li>
+							<li><a href="#">공구/레저용품</a></li>
+						</ul>
+					</li>
+					<li class="brand">
+						<h2><a href="#">BRAND</a></h2>
+						<ul class="sub">
+							<li><a href="#">CEO소개</a></li>
+							<li><a href="#">브랜드스토리</a></li>
+							<li><a href="#">신규 매장</a></li>
+						</ul>
+					</li>
+					<li class="news">
+						<h2><a href="#">NEWS</a></h2>
+						<ul class="sub">
+							<li><a href="#">뉴스 및 공지사항</a></li>
+							<li><a href="#">인재채용</a></li>
+						</ul>
+
+					</li>
+					<li class="offer">
+						<h2><a href="#">OFFER</a></h2>
+						<ul class="sub">
+							<li><a href="#">납품상담</a></li>
+							<li><a href="#">직영점 입지제안</a></li>
+						</ul>
+					</li>
+					<li class="membership">
+						<h2><a href="#">MEMBERSHIP</a></h2>
+						<ul class="sub">
+							<li><a href="#">다이소 멤버쉽 소개</a></li>
+							<li><a href="#">적립 및 사용안내</a></li>
+							<li><a href="#">다이소페이 안내</a></li>
+							<li><a href="#">이벤트</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div id="menuToggle">
+		<input type="checkbox" />
+		<span></span>
+		<span></span>
+		<span></span>
+
+		<ul id="menu">
+			<li><img src="images/m_logo.png" alt=""></li>
+			<li><a href="index-sub.html">
+					<p>LOG-IN / JOIN US</p>
+				</a></li>
+			<li><a href="#">청소/세탁용품</a></li>
+			<li><a href="#">주방용품</a></li>
+			<li><a href="#">조화용품</a></li>
+			<li><a href="#">욕실용품</a></li>
+			<li><a href="#">패브릭용품</a></li>
+			<li><a href="#">미용/화장</a></li>
+			<li><a href="#">문구/완구</a></li>
+			<li><a href="#">일회/위생</a></li>
+			<li><a href="#">공구/레저용품</a></li>
+		</ul>
+	</div>
+
+
+
+	<div id="slide">
+		<!--<input type="radio" name="pos" id="pos1" checked>
+		<input type="radio" name="pos" id="pos2">
+		<input type="radio" name="pos" id="pos3">-->
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<p class="pos">
+			<label for="pos1"></label>
+			<label for="pos2"></label>
+			<label for="pos3"></label>
+		</p>
+	</div>
+
+	<section class="contents">
+		<div class="borderbox clearFix">
+			<h2>로그인</h2>
+			<p>다이소의 다양한 혜택을 누리세요.</p>
+			<div class="inputS" id="id">
+				<span class="input_box">
+					<label for="id" id="label_id" class="lab" style="display: block;"></label>
+					<input type="text" id="id" name="id" placeholder="아이디" maxlength="16" class="int">
+				</span>
+			</div>
+			<div class="inputS" id="pw">
+				<span class="input_box">
+					<label for="id" id="label_pw" class="lab" style="display: block;"></label>
+					<input type="text" id="pw" name="pw" placeholder="비밀번호" maxlength="32" class="int">
+				</span>
+			</div>
+
+			<div class="forget">
+				<div class="id_check">
+					<span>
+						<input id="save_id" type="checkbox" checked="checked">
+						<label for="save_id" class="save">아이디 저장</label>
+					</span></div>
+				<div class="find">
+					<a href="#">아이디 / 비밀번호 찾기</a>
+					<span>|</span>
+					<a href="#">회원가입</a>
+				</div>
+			</div>
+			<div>
+				<button type="button" class="btn_login">로그인</button></div>
+			<ul class="sns">
+				<li class="naver">
+					<a href="#"><img src="images/naver1.jpg" alt="">
+						<span>네이버로 로그인</span></a>
+				</li>
+
+
+				<li class="kakao">
+					<a href="#"><img src="images/kakao1.jpg" alt="">
+						<span>카카오톡으로 로그인</span></a>
+						<!--div가 아니라 ul->li안에 그림, 스판 다 넣기-->
+				</li>
+			</ul>
+		</div>
+
+	</section>
+
+</body>
+<footer>
+	<div class="footTop clearFix">
+		<div class="center">
+			<div class="customer">
+				<h2>Customer Service</h2>
+				<ul>
+					<li><strong>고객만족실 전화번호</strong> <span><img src="images/telephone.png" alt="">1522-4400</span></li>
+					<br>
+					<li><strong>고객만족실 운영시간</strong><img src="images/headset%20(1).png" alt=""><span>평일 오전 9시 ~ 오후 6시 </span><span class="last">토요일 오전 9시 ~ 오후 2시</span></li>
+				</ul>
+			</div>
+			<ul class="footerBanner">
+				<li><a href="#"><img src="images/footer_logo1.png" alt=""></a></li>
+				<li><a href="#"><img src="images/footer_logo2.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footBottom">
+		<div>
+			<ul class="info">
+				<li><a href="#">
+						납품안내
+					</a></li>
+				<li><a href="#">
+						원격서비스
+					</a></li>
+				<li><a href="#">
+						인트라넷
+					</a></li>
+				<li><a href="#">
+						개인정보처리방침
+					</a></li>
+			</ul>
+
+		</div>
+		<div class="address">
+			<p>우편번호 (06297) 서울시 강남구 남부순환로 2748 아성빌딩 (주)아성다이소<br> 대표번호 : 02-405-0800</p>
+			<p>팩스 : 02-405-0993</p>
+			<p>이메일 : webmaster@daiso.co.kr | 개인정보관리책임자 : 정웅식</p>
+			<p>
+				Copyright (c) DAISO. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</footer>
+
+</html>
